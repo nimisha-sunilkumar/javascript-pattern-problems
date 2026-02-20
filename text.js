@@ -7,15 +7,15 @@ for(let i=1;i<=n;i++){
     temp++;
     //left
     for(let j=1;j<=temp;j++){
-        res=res+"* ";
+        res=res+"*";
     }
     //middle
-    for(let k=1;k<=(n-temp)*4;k++){
+    for(let k=1;k<=(n-temp)*2;k++){
         res=res+" ";
     }
     //right
     for(let j=1;j<=temp;j++){
-        res=res+"* ";
+        res=res+"*";
     }
 console.log(res);
 }
@@ -25,15 +25,15 @@ for(let i=1;i<n;i++){
     temp--;
     //left
     for(let j=1;j<=temp;j++){
-        res=res+"* ";
+        res=res+"*";
     }
     //middle
-    for(let k=1;k<=(n-temp)*4;k++){
+    for(let k=1;k<=(n-temp)*2;k++){
         res=res+" ";
     }
     //right
     for(let j=1;j<=temp;j++){
-        res=res+"* ";
+        res=res+"*";
     }
 console.log(res);
 }
@@ -236,4 +236,5 @@ for(i=1;i<=5;i++){
     for(j=1;j<=5;j++){
         res=res+"*"
     }console.log(res)
+
 }
